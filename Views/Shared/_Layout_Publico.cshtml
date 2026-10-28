@@ -1,0 +1,491 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prime Motors - Agência de Veículos</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+
+        /* =========================
+           CONFIGURAÇÕES GERAIS
+        ========================== */
+
+        body {
+            background-color: #f5f6f8;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #222;
+        }
+
+        /* =========================
+           NAVBAR
+        ========================== */
+
+        .navbar {
+            background-color: #111827;
+        }
+
+        .navbar-brand {
+            font-size: 25px;
+            font-weight: bold;
+            color: white !important;
+        }
+
+        .navbar-brand span {
+            color: #dc2626;
+        }
+
+        .navbar .nav-link {
+            color: #ddd !important;
+            margin-left: 15px;
+        }
+
+        .navbar .nav-link:hover {
+            color: white !important;
+        }
+
+        /* =========================
+           BANNER
+        ========================== */
+
+        .hero {
+            min-height: 450px;
+            background:
+                linear-gradient(
+                    rgba(0, 0, 0, 0.65),
+                    rgba(0, 0, 0, 0.65)
+                ),
+                url("https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=80");
+
+            background-size: cover;
+            background-position: center;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-top: 15px;
+        }
+
+        .btn-danger {
+            background-color: #dc2626;
+            border: none;
+        }
+
+        .btn-danger:hover {
+            background-color: #b91c1c;
+        }
+
+        /* =========================
+           SEÇÃO DE VEÍCULOS
+        ========================== */
+
+        .titulo-secao {
+            font-weight: bold;
+            font-size: 34px;
+            margin-bottom: 10px;
+        }
+
+        .subtitulo {
+            color: #6b7280;
+            margin-bottom: 40px;
+        }
+
+        /* =========================
+           CARD DOS CARROS
+        ========================== */
+
+        .carro-card {
+            border: none;
+            border-radius: 12px;
+            overflow: hidden;
+
+            background-color: white;
+
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+            transition: 0.3s;
+        }
+
+        .carro-card:hover {
+            transform: translateY(-6px);
+
+            box-shadow:
+                0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .carro-card img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+        }
+
+        .carro-card .card-body {
+            padding: 22px;
+        }
+
+        .carro-nome {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .carro-descricao {
+            color: #6b7280;
+            min-height: 48px;
+        }
+
+        .preco {
+            color: #dc2626;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .detalhes {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+
+            margin-top: 15px;
+            margin-bottom: 20px;
+
+            color: #555;
+            font-size: 14px;
+        }
+
+        .detalhes i {
+            color: #dc2626;
+            margin-right: 4px;
+        }
+
+        /* =========================
+           DESTAQUE
+        ========================== */
+
+        .destaque {
+            background-color: #111827;
+            color: white;
+            padding: 60px 20px;
+            margin-top: 40px;
+        }
+
+        .destaque h2 {
+            font-weight: bold;
+        }
+
+        /* =========================
+           RODAPÉ
+        ========================== */
+
+        footer {
+            background-color: #0b1120;
+            color: #ddd;
+            padding: 40px 0;
+        }
+
+        footer h5 {
+            color: white;
+            font-weight: bold;
+        }
+
+        footer i {
+            color: #dc2626;
+            margin-right: 8px;
+        }
+
+        .copyright {
+            border-top: 1px solid #374151;
+            margin-top: 30px;
+            padding-top: 20px;
+            text-align: center;
+            color: #9ca3af;
+        }
+
+        /* =========================
+           RESPONSIVIDADE
+        ========================== */
+
+        @@media (max-width: 768px) {
+
+            .hero {
+                min-height: 400px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 17px;
+            }
+
+            .titulo-secao {
+                font-size: 28px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================
+         MENU
+    ===================================== -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                Prime<span>Motors</span>
+            </a>
+
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+            <div class="collapse navbar-collapse"
+                 id="menu">
+
+                
+                 
+                 
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">
+                            Início
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carros">
+                            Veículos
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">
+                            Contato
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="AreaPublica" asp-action="Login">
+                            Login
+                        </a>
+                    </li>
+
+                </ul>
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- =====================================
+         BANNER
+    ===================================== -->
+
+    <section id="inicio"
+             class="hero">
+
+        <div class="container">
+
+            <h1>
+                Encontre o carro ideal para você
+            </h1>
+
+            <p>
+                Veículos selecionados, revisados e com as melhores condições.
+            </p>
+
+            <a href="#carros"
+               class="btn btn-danger btn-lg mt-3">
+
+                <i class="bi bi-car-front-fill"></i>
+
+                Ver veículos
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         VEÍCULOS
+    ===================================== -->
+    
+    @RenderBody()
+
+    <!-- =====================================
+         DESTAQUE
+    ===================================== -->
+
+    <section class="destaque">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-8">
+
+                    <h2>
+                        Seu próximo carro está aqui!
+                    </h2>
+
+                    <p class="mb-0 mt-3">
+                        Trabalhamos com veículos selecionados,
+                        revisados e com procedência garantida.
+                    </p>
+
+                </div>
+
+
+                <div class="col-md-4 text-md-end mt-4 mt-md-0">
+
+                    <a href="#carros"
+                       class="btn btn-danger btn-lg">
+
+                        Ver carros disponíveis
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         RODAPÉ
+    ===================================== -->
+
+    <footer id="contato">
+
+        <div class="container">
+
+            <div class="row g-4">
+
+
+                <div class="col-md-4">
+
+                    <h5>
+                        Prime Motors
+                    </h5>
+
+                    <p>
+                        Sua agência de veículos novos e seminovos.
+                    </p>
+
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <h5>
+                        Contato
+                    </h5>
+
+                    <p>
+                        <i class="bi bi-telephone"></i>
+                        (11) 99999-9999
+                    </p>
+
+                    <p>
+                        <i class="bi bi-envelope"></i>
+                        contato@primemotors.com.br
+                    </p>
+
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <h5>
+                        Endereço
+                    </h5>
+
+                    <p>
+                        <i class="bi bi-geo-alt"></i>
+                        Av. dos Automóveis, 1000
+                    </p>
+
+                    <p>
+                        São Paulo - SP
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="copyright">
+
+                © 2026 Prime Motors - Todos os direitos reservados.
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- Bootstrap JavaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+
+</body>
+
+</html>

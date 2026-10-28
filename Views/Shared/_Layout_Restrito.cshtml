@@ -1,0 +1,1070 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prime Motors - Área Restrita</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <style>
+
+        body {
+            background-color: #f4f6f9;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* =========================
+                   NAVBAR
+                ========================== */
+
+        .navbar {
+            background-color: #111827;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+            .navbar-brand span {
+                color: #dc2626;
+            }
+
+        .usuario {
+            color: white;
+        }
+
+
+        /* =========================
+                   CONTEÚDO
+                ========================== */
+
+        .conteudo {
+            padding: 35px 0;
+        }
+
+        .titulo {
+            font-weight: bold;
+        }
+
+
+        /* =========================
+                   CARDS DE RESUMO
+                ========================== */
+
+        .card-resumo {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+            padding: 20px;
+            background-color: white;
+        }
+
+        .icone-resumo {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: #111827;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .numero {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+
+        /* =========================
+                   FORMULÁRIO
+                ========================== */
+
+        .form-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+        }
+
+        .form-label {
+            font-weight: bold;
+        }
+
+
+        /* =========================
+                   TABELA
+                ========================== */
+
+        .tabela-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+        }
+
+        .foto-carro {
+            width: 100px;
+            height: 65px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+
+        /* =========================
+                   BOTÕES
+                ========================== */
+
+        .btn-danger {
+            background-color: #dc2626;
+            border: none;
+        }
+
+            .btn-danger:hover {
+                background-color: #b91c1c;
+            }
+
+
+        /* =========================
+                   MOBILE
+                ========================== */
+
+        @@media (max-width: 768px) {
+            .conteudo
+
+        {
+            padding: 20px 10px;
+        }
+
+        .tabela-card {
+            overflow-x: auto;
+        }
+
+        .usuario {
+            margin-top: 10px;
+        }
+
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =================================================
+         NAVBAR ADMINISTRATIVA
+    ================================================== -->
+
+    <nav class="navbar navbar-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand"
+               href="#">
+
+                Prime<span>Motors</span>
+
+                <small class="text-secondary">
+                    | Administração
+                </small>
+
+            </a>
+
+
+            <div class="usuario">
+
+                <i class="bi bi-person-circle"></i>
+
+                Funcionário
+
+
+                <button class="btn btn-outline-light btn-sm ms-3"
+                        onclick="sair()">
+
+                    <i class="bi bi-box-arrow-right"></i>
+
+                    Sair
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- =================================================
+         CONTEÚDO PRINCIPAL
+    ================================================== -->
+
+    <main class="conteudo">
+
+        <div class="container">
+
+
+            <!-- =================================================
+                 TÍTULO
+            ================================================== -->
+
+            <div class="mb-4">
+
+                <h2 class="titulo">
+
+                    Painel administrativo
+
+                </h2>
+
+                <p class="text-secondary">
+
+                    Gerencie os veículos disponíveis no site.
+
+                </p>
+
+            </div>
+
+
+            <!-- =================================================
+                 CARDS DE RESUMO
+            ================================================== -->
+
+            <div class="row g-3 mb-4">
+
+
+                <!-- TOTAL DE VEÍCULOS -->
+
+                <div class="col-12 col-md-4">
+
+                    <div class="card-resumo">
+
+                        <div class="d-flex align-items-center gap-3">
+
+                            <div class="icone-resumo">
+
+                                <i class="bi bi-car-front-fill"></i>
+
+                            </div>
+
+                            <div>
+
+                                <div class="text-secondary">
+
+                                    Veículos cadastrados
+
+                                </div>
+
+                                <div class="numero"
+                                     id="totalCarros">
+
+                                    2
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- DISPONÍVEIS -->
+
+                <div class="col-12 col-md-4">
+
+                    <div class="card-resumo">
+
+                        <div class="d-flex align-items-center gap-3">
+
+                            <div class="icone-resumo">
+
+                                <i class="bi bi-check-circle"></i>
+
+                            </div>
+
+                            <div>
+
+                                <div class="text-secondary">
+
+                                    Disponíveis
+
+                                </div>
+
+                                <div class="numero"
+                                     id="totalDisponiveis">
+
+                                    2
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- VALOR MÉDIO -->
+
+                <div class="col-12 col-md-4">
+
+                    <div class="card-resumo">
+
+                        <div class="d-flex align-items-center gap-3">
+
+                            <div class="icone-resumo">
+
+                                <i class="bi bi-currency-dollar"></i>
+
+                            </div>
+
+                            <div>
+
+                                <div class="text-secondary">
+
+                                    Valor médio
+
+                                </div>
+
+                                <div class="numero"
+                                     id="valorMedio">
+
+                                    R$ 274 mil
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 CADASTRO DE VEÍCULO
+            ================================================== -->
+
+            <div class="form-card mb-4">
+
+                <div class="d-flex justify-content-between align-items-center mb-4">
+
+                    <div>
+
+                        <h4 class="mb-1">
+
+                            <i class="bi bi-plus-circle"></i>
+
+                            Cadastrar veículo
+
+                        </h4>
+
+                        <p class="text-secondary mb-0">
+
+                            Preencha os dados do novo veículo.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <form onsubmit="cadastrarCarro(event)">
+
+                    <div class="row g-3">
+
+
+                        <!-- NOME -->
+
+                        <div class="col-12 col-md-6">
+
+                            <label class="form-label">
+
+                                Nome do veículo
+
+                            </label>
+
+                            <input type="text"
+                                   id="nome"
+                                   class="form-control"
+                                   placeholder="Ex: Toyota Corolla"
+                                   required>
+
+                        </div>
+
+
+                        <!-- ANO -->
+
+                        <div class="col-12 col-md-3">
+
+                            <label class="form-label">
+
+                                Ano
+
+                            </label>
+
+                            <input type="number"
+                                   id="ano"
+                                   class="form-control"
+                                   placeholder="2024"
+                                   required>
+
+                        </div>
+
+
+                        <!-- KM -->
+
+                        <div class="col-12 col-md-3">
+
+                            <label class="form-label">
+
+                                Quilometragem
+
+                            </label>
+
+                            <input type="number"
+                                   id="km"
+                                   class="form-control"
+                                   placeholder="15000"
+                                   required>
+
+                        </div>
+
+
+                        <!-- PREÇO -->
+
+                        <div class="col-12 col-md-4">
+
+                            <label class="form-label">
+
+                                Preço
+
+                            </label>
+
+                            <input type="number"
+                                   id="preco"
+                                   class="form-control"
+                                   placeholder="149900"
+                                   required>
+
+                        </div>
+
+
+                        <!-- CÂMBIO -->
+
+                        <div class="col-12 col-md-4">
+
+                            <label class="form-label">
+
+                                Câmbio
+
+                            </label>
+
+                            <select id="cambio"
+                                    class="form-select"
+                                    required>
+
+                                <option value="">
+                                    Selecione
+                                </option>
+
+                                <option>
+                                    Automático
+                                </option>
+
+                                <option>
+                                    Manual
+                                </option>
+
+                                <option>
+                                    Automatizado
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- COMBUSTÍVEL -->
+
+                        <div class="col-12 col-md-4">
+
+                            <label class="form-label">
+
+                                Combustível
+                            </label>
+
+                            <select id="combustivel"
+                                    class="form-select"
+                                    required>
+
+                                <option value="">
+                                    Selecione
+                                </option>
+
+                                <option>
+                                    Flex
+                                </option>
+
+                                <option>
+                                    Gasolina
+                                </option>
+
+                                <option>
+                                    Diesel
+                                </option>
+
+                                <option>
+                                    Elétrico
+                                </option>
+
+                                <option>
+                                    Híbrido
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- FOTO -->
+
+                        <div class="col-12">
+
+                            <label class="form-label">
+
+                                URL da foto
+
+                            </label>
+
+                            <input type="url"
+                                   id="foto"
+                                   class="form-control"
+                                   placeholder="https://site.com/imagem.jpg"
+                                   required>
+
+                        </div>
+
+
+                        <!-- DESCRIÇÃO -->
+
+                        <div class="col-12">
+
+                            <label class="form-label">
+
+                                Descrição
+
+                            </label>
+
+                            <textarea id="descricao"
+                                      class="form-control"
+                                      rows="4"
+                                      placeholder="Digite uma descrição do veículo..."
+                                      required></textarea>
+
+                        </div>
+
+
+                        <!-- BOTÕES -->
+
+                        <div class="col-12 text-end">
+
+                            <button type="reset"
+                                    class="btn btn-secondary">
+
+                                Limpar
+
+                            </button>
+
+
+                            <button type="submit"
+                                    class="btn btn-danger">
+
+                                <i class="bi bi-plus-lg"></i>
+
+                                Cadastrar veículo
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+
+            <!-- =================================================
+                 LISTA DE VEÍCULOS
+            ================================================== -->
+
+            <div class="tabela-card">
+
+                <div class="d-flex justify-content-between align-items-center mb-4">
+
+                    <div>
+
+                        <h4>
+
+                            <i class="bi bi-car-front"></i>
+
+                            Veículos cadastrados
+
+                        </h4>
+
+                        <p class="text-secondary mb-0">
+
+                            Veículos que serão exibidos no site público.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="table-responsive">
+
+                    <table class="table table-hover align-middle">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Foto</th>
+
+                                <th>Veículo</th>
+
+                                <th>Ano</th>
+
+                                <th>KM</th>
+
+                                <th>Preço</th>
+
+                                <th>Status</th>
+
+                                <th>Ações</th>
+
+                            </tr>
+
+                        </thead>
+
+
+                        <tbody id="listaCarros">
+
+
+                            <!-- =================================================
+                                 CARRO 1
+                            ================================================== -->
+
+                            <tr>
+
+                                <td>
+
+                                    <img class="foto-carro"
+                                         src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=400&q=80"
+                                         alt="BMW Série 3">
+
+                                </td>
+
+                                <td>
+
+                                    <strong>
+                                        BMW Série 3
+                                    </strong>
+
+                                </td>
+
+                                <td>
+                                    2024
+                                </td>
+
+                                <td>
+                                    18.000 km
+                                </td>
+
+                                <td>
+                                    R$ 289.900
+                                </td>
+
+                                <td>
+
+                                    <span class="badge bg-success">
+
+                                        Disponível
+
+                                    </span>
+
+                                </td>
+
+                                <td>
+
+                                    <button class="btn btn-sm btn-outline-primary"
+                                            onclick="editarCarro(this)">
+
+                                        <i class="bi bi-pencil"></i>
+
+                                    </button>
+
+
+                                    <button class="btn btn-sm btn-outline-danger"
+                                            onclick="removerCarro(this)">
+
+                                        <i class="bi bi-trash"></i>
+
+                                    </button>
+
+                                </td>
+
+                            </tr>
+
+
+                            <!-- =================================================
+                                 CARRO 2
+                            ================================================== -->
+
+                            <tr>
+
+                                <td>
+
+                                    <img class="foto-carro"
+                                         src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=400&q=80"
+                                         alt="Audi A4">
+
+                                </td>
+
+                                <td>
+
+                                    <strong>
+                                        Audi A4
+                                    </strong>
+
+                                </td>
+
+                                <td>
+                                    2023
+                                </td>
+
+                                <td>
+                                    25.000 km
+                                </td>
+
+                                <td>
+                                    R$ 259.900
+                                </td>
+
+                                <td>
+
+                                    <span class="badge bg-success">
+
+                                        Disponível
+
+                                    </span>
+
+                                </td>
+
+                                <td>
+
+                                    <button class="btn btn-sm btn-outline-primary"
+                                            onclick="editarCarro(this)">
+
+                                        <i class="bi bi-pencil"></i>
+
+                                    </button>
+
+
+                                    <button class="btn btn-sm btn-outline-danger"
+                                            onclick="removerCarro(this)">
+
+                                        <i class="bi bi-trash"></i>
+
+                                    </button>
+
+                                </td>
+
+                            </tr>
+
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+    <!-- =================================================
+         JAVASCRIPT
+    ================================================== -->
+
+    <script>
+
+
+        /*
+           =================================================
+           SAIR
+           =================================================
+
+           Como esta página é independente,
+           o botão Sair simplesmente retorna
+           para a página de login.
+        */
+
+        function sair() {
+
+            window.location.href = "login.html";
+
+        }
+
+
+        /*
+           =================================================
+           CADASTRAR CARRO
+           =================================================
+        */
+
+        function cadastrarCarro(event) {
+
+            event.preventDefault();
+
+
+            const nome =
+                document.getElementById("nome").value;
+
+            const ano =
+                document.getElementById("ano").value;
+
+            const km =
+                document.getElementById("km").value;
+
+            const preco =
+                document.getElementById("preco").value;
+
+            const foto =
+                document.getElementById("foto").value;
+
+
+            const lista =
+                document.getElementById("listaCarros");
+
+
+            const linha =
+                document.createElement("tr");
+
+
+            linha.innerHTML = `
+
+                <td>
+
+                    <img
+                        class="foto-carro"
+                        src="${foto}"
+                        alt="${nome}">
+
+                </td>
+
+                <td>
+
+                    <strong>
+                        ${nome}
+                    </strong>
+
+                </td>
+
+                <td>
+                    ${ano}
+                </td>
+
+                <td>
+                    ${Number(km).toLocaleString("pt-BR")} km
+                </td>
+
+                <td>
+                    R$ ${Number(preco).toLocaleString("pt-BR")}
+                </td>
+
+                <td>
+
+                    <span class="badge bg-success">
+
+                        Disponível
+
+                    </span>
+
+                </td>
+
+                <td>
+
+                    <button
+                        class="btn btn-sm btn-outline-primary"
+                        onclick="editarCarro(this)">
+
+                        <i class="bi bi-pencil"></i>
+
+                    </button>
+
+
+                    <button
+                        class="btn btn-sm btn-outline-danger"
+                        onclick="removerCarro(this)">
+
+                        <i class="bi bi-trash"></i>
+
+                    </button>
+
+                </td>
+
+            `;
+
+
+            lista.appendChild(linha);
+
+
+            atualizarTotais();
+
+
+            event.target.reset();
+
+
+            alert(
+                "Veículo cadastrado com sucesso!"
+            );
+
+        }
+
+
+        /*
+           =================================================
+           REMOVER CARRO
+           =================================================
+        */
+
+        function removerCarro(botao) {
+
+            const confirmou =
+                confirm(
+                    "Deseja realmente remover este veículo?"
+                );
+
+
+            if (!confirmou) {
+
+                return;
+
+            }
+
+
+            botao
+                .closest("tr")
+                .remove();
+
+
+            atualizarTotais();
+
+        }
+
+
+        /*
+           =================================================
+           EDITAR CARRO
+           =================================================
+        */
+
+        function editarCarro(botao) {
+
+            const linha =
+                botao.closest("tr");
+
+
+            const nomeAtual =
+                linha.cells[1].innerText;
+
+
+            const novoNome =
+                prompt(
+                    "Digite o novo nome do veículo:",
+                    nomeAtual
+                );
+
+
+            if (
+                novoNome !== null &&
+                novoNome.trim() !== ""
+            ) {
+
+                linha.cells[1].innerHTML =
+                    `<strong>${novoNome}</strong>`;
+
+            }
+
+        }
+
+
+        /*
+           =================================================
+           ATUALIZAR TOTAIS
+           =================================================
+        */
+
+        function atualizarTotais() {
+
+            const lista =
+                document.getElementById("listaCarros");
+
+
+            const total =
+                lista.querySelectorAll("tr").length;
+
+
+            document.getElementById("totalCarros")
+                .innerText = total;
+
+
+            document.getElementById("totalDisponiveis")
+                .innerText = total;
+
+        }
+
+
+    </script>
+
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+﻿
+@model List<Carro>
+
+@foreach (Carro carro in Model)
+{
+    <p>@carro.Nome</p>
+    <p>@carro.Descricao</p>
+    <p>@carro.Ano</p>
+    <p>@carro.Quilometragem</p>
+    <p>@carro.Cambio</p>
+    <p>@carro.Preco</p>
+    <br />
+}

@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|c:\\users\\aluno - lab\\downloads\\projeto_do_semestre (1)\\projeto_do_semestre\\controllers\\arearestritacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|solutionrelative:controllers\\arearestritacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|c:\\users\\aluno - lab\\downloads\\projeto_do_semestre (1)\\projeto_do_semestre\\views\\arearestrita\\admveiculos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|solutionrelative:views\\arearestrita\\admveiculos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|c:\\users\\aluno - lab\\downloads\\projeto_do_semestre (1)\\projeto_do_semestre\\dao\\carrodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|solutionrelative:dao\\carrodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|c:\\users\\aluno - lab\\downloads\\projeto_do_semestre (1)\\projeto_do_semestre\\controllers\\areapublicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|solutionrelative:controllers\\areapublicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|c:\\users\\aluno - lab\\downloads\\projeto_do_semestre (1)\\projeto_do_semestre\\models\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|solutionrelative:models\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|c:\\users\\aluno - lab\\downloads\\projeto_do_semestre (1)\\projeto_do_semestre\\data\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|solutionrelative:data\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|c:\\users\\aluno - lab\\downloads\\projeto_do_semestre (1)\\projeto_do_semestre\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|c:\\users\\aluno - lab\\downloads\\projeto_do_semestre (1)\\projeto_do_semestre\\projeto_do_semestre.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|solutionrelative:projeto_do_semestre.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|c:\\users\\aluno - lab\\downloads\\projeto_do_semestre (1)\\projeto_do_semestre\\views\\areapublica\\veiculosnacionais.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|solutionrelative:views\\areapublica\\veiculosnacionais.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|c:\\users\\aluno - lab\\downloads\\projeto_do_semestre (1)\\projeto_do_semestre\\views\\areapublica\\veiculosimportados.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|solutionrelative:views\\areapublica\\veiculosimportados.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|c:\\users\\aluno - lab\\downloads\\projeto_do_semestre (1)\\projeto_do_semestre\\views\\shared\\_layout_publico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|solutionrelative:views\\shared\\_layout_publico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|c:\\users\\aluno - lab\\downloads\\projeto_do_semestre (1)\\projeto_do_semestre\\views\\areapublica\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|solutionrelative:views\\areapublica\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|c:\\users\\aluno - lab\\downloads\\projeto_do_semestre (1)\\projeto_do_semestre\\views\\shared\\_layout_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|solutionrelative:views\\shared\\_layout_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|c:\\users\\aluno - lab\\downloads\\projeto_do_semestre (1)\\projeto_do_semestre\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|c:\\users\\aluno - lab\\downloads\\projeto_do_semestre (1)\\projeto_do_semestre\\views\\shared\\_layout_restrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|solutionrelative:views\\shared\\_layout_restrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|c:\\users\\aluno - lab\\downloads\\projeto_do_semestre (1)\\projeto_do_semestre\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|c:\\users\\aluno - lab\\downloads\\projeto_do_semestre (1)\\projeto_do_semestre\\views\\arearestrita\\admvendas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1396EFE-AAD9-4D52-AD63-B3820887CB0D}|Projeto_do_semestre.csproj|solutionrelative:views\\arearestrita\\admvendas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIBBwBIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T00:22:33.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdmVeiculos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\AreaRestrita\\AdmVeiculos.cshtml",
+              "RelativeDocumentMoniker": "Views\\AreaRestrita\\AdmVeiculos.cshtml",
+              "ToolTip": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\AreaRestrita\\AdmVeiculos.cshtml",
+              "RelativeToolTip": "Views\\AreaRestrita\\AdmVeiculos.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAA+wGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-08T23:34:55.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Projeto_do_semestre.csproj",
+              "DocumentMoniker": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Projeto_do_semestre.csproj",
+              "RelativeDocumentMoniker": "Projeto_do_semestre.csproj",
+              "ToolTip": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Projeto_do_semestre.csproj",
+              "RelativeToolTip": "Projeto_do_semestre.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-06T23:11:06.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AreaRestritaController.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Controllers\\AreaRestritaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AreaRestritaController.cs",
+              "ToolTip": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Controllers\\AreaRestritaController.cs",
+              "RelativeToolTip": "Controllers\\AreaRestritaController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T23:23:10.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Banco.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Data\\Banco.cs",
+              "RelativeDocumentMoniker": "Data\\Banco.cs",
+              "ToolTip": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Data\\Banco.cs",
+              "RelativeToolTip": "Data\\Banco.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA6wBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T23:13:51.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarroDao.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Dao\\CarroDao.cs",
+              "RelativeDocumentMoniker": "Dao\\CarroDao.cs",
+              "ToolTip": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Dao\\CarroDao.cs",
+              "RelativeToolTip": "Dao\\CarroDao.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T23:09:16.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AreaPublicaController.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Controllers\\AreaPublicaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AreaPublicaController.cs",
+              "ToolTip": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Controllers\\AreaPublicaController.cs",
+              "RelativeToolTip": "Controllers\\AreaPublicaController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowDUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T23:21:59.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Carro.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Models\\Carro.cs",
+              "RelativeDocumentMoniker": "Models\\Carro.cs",
+              "ToolTip": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Models\\Carro.cs",
+              "RelativeToolTip": "Models\\Carro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T23:24:55.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VeiculosNacionais.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\AreaPublica\\VeiculosNacionais.cshtml",
+              "RelativeDocumentMoniker": "Views\\AreaPublica\\VeiculosNacionais.cshtml",
+              "ToolTip": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\AreaPublica\\VeiculosNacionais.cshtml",
+              "RelativeToolTip": "Views\\AreaPublica\\VeiculosNacionais.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-08T23:32:03.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VeiculosImportados.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\AreaPublica\\VeiculosImportados.cshtml",
+              "RelativeDocumentMoniker": "Views\\AreaPublica\\VeiculosImportados.cshtml",
+              "ToolTip": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\AreaPublica\\VeiculosImportados.cshtml",
+              "RelativeToolTip": "Views\\AreaPublica\\VeiculosImportados.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-08T23:31:31.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout_Publico.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\Shared\\_Layout_Publico.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout_Publico.cshtml",
+              "ToolTip": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\Shared\\_Layout_Publico.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout_Publico.cshtml",
+              "ViewState": "AgIAACEBAAAAAAAAAAAswDYBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-08T23:14:41.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\AreaPublica\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\AreaPublica\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\AreaPublica\\Login.cshtml",
+              "RelativeToolTip": "Views\\AreaPublica\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-08T23:28:47.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout_Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\Shared\\_Layout_Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout_Login.cshtml",
+              "ToolTip": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\Shared\\_Layout_Login.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout_Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-08T23:16:48.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout_Restrito.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\Shared\\_Layout_Restrito.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout_Restrito.cshtml",
+              "ToolTip": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\Shared\\_Layout_Restrito.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout_Restrito.cshtml",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAwwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-08T23:18:26.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-08T23:55:19.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-09T00:15:39.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdmVendas.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\AreaRestrita\\AdmVendas.cshtml",
+              "RelativeDocumentMoniker": "Views\\AreaRestrita\\AdmVendas.cshtml",
+              "ToolTip": "C:\\Users\\Aluno - Lab\\Downloads\\Projeto_do_semestre (1)\\Projeto_do_semestre\\Views\\AreaRestrita\\AdmVendas.cshtml",
+              "RelativeToolTip": "Views\\AreaRestrita\\AdmVendas.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-08T23:36:42.197Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
